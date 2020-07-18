@@ -1,0 +1,264 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+  }
+  
+  ul{
+    margin:0
+  }
+  
+  body{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #showcase{
+    height:60vh;
+    background-image:  linear-gradient(360deg, rgba(0,0,0,0.4), rgba(0,0,0,0.2)),url("https://picsum.photos/900/600");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 80% 80%;
+    background-attachment: fixed;
+    box-shadow: 0px 1px 2px 3px  rgba(0,0,0,0.2);
+  }
+  
+  #showcase nav {
+    background-color:rgba(0,0,0,0.4);
+    padding: 13px 0;
+    line-height: 2;
+    border-bottom: 1px solid rgb(56, 48, 48);
+    position:fixed;
+    width:100%;
+    z-index: 1;
+  }
+  
+  #showcase nav .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #showcase nav .container .fa-layer-group{
+    color:rgb(219, 196, 200);
+    font-size: 23px;
+    margin:5px;
+  }
+  
+  #showcase nav ul {
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+  }
+  
+  #showcase nav ul li {
+    margin-right: 15px;
+  }
+  
+  #showcase nav ul li a {
+    color:white;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 1s;
+    position:relative;
+  }
+  
+  #showcase nav ul li a:hover {
+    text-decoration: none;
+    color:crimson;
+  }
+  
+  #showcase .bienvenue {
+    min-height:75%;
+    text-align: center;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  #showcase .bienvenue .txt h1 {
+    color:white;
+    font-size: 35px;
+    font-weight: 700;
+    padding:15px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.4);
+  }
+  #showcase .bienvenue .btn button {
+    width:155px;
+    font-size: 16px;
+    font-weight: 900;
+    margin:3px 3px;
+    padding: 8px 5px;
+  }
+  
+  /* marge pour les sections */
+  section{
+    margin: 40px 0px;
+  }
+  
+  #services .serv {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:5px;
+  }
+  
+  #services svg{
+    margin: 20px 0;
+    color:rgb(148, 11, 38);
+  }
+  
+  #services h3 {
+    margin: 15px 0;
+    
+  }
+  
+  /* style pour la section cta */
+  
+  #cta .cta-img {
+    height:25vh;
+    background-color: orange;
+    background-image:  linear-gradient(180deg, rgba(33,52,33,0.7), rgba(22,52,30,0.7)),url("https://picsum.photos/900/603");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed;
+    padding:10px;
+  }
+  
+  #cta .cta-img .container{
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #cta .cta-img .container p{
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    color: beige;
+    margin-top: 20px;;
+  }
+  
+  #cta .cta-img .container .btn{
+    padding:6px 25px ;
+    font-size: 18px;
+  }
+  
+  /* style pour la section gallery */
+  #gallery .container{
+    text-align: center;
+  }
+  
+  #gallery .container h2{
+    font-size:32px;
+    margin-bottom: 32px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #gallery .container  img{
+    width:100%;
+    margin-bottom:22px;
+  }
+  
+  /* style pour la section cta 2*/
+  #cta2 .cta-img {
+    height:25vh;
+    background-color: orange;
+    background-image:  linear-gradient(180deg, rgba(33,52,33,0.7), rgba(22,52,30,0.7)),url("https://picsum.photos/900/605");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed;
+    padding:10px;
+  }
+  
+  #cta2 .cta-img .container{
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #cta2 .cta-img .container p{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: beige;
+    margin-top: 20px;;
+  }
+  
+  #cta2 .cta-img .container .btn{
+    padding:6px 25px ;
+    font-size: 19px;
+  }
+  
+  /* style pour la section Avis clients -- testimonials*/
+  
+  #testimonials .container h2 {
+    text-align:center;
+    margin-bottom:20px;
+  }
+  
+  #testimonials .container .owl-carousel .item {
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  #testimonials .container .owl-carousel .item img {
+    height:80px;
+    width:80px;
+    border-radius:50%;
+  
+  }
+  
+  #testimonials .container .owl-carousel .item .star {
+    margin:15px 0;
+  
+  }
+  
+  #testimonials .container .owl-carousel .item .star .fa-star{
+    color:orange;
+    
+  }
+  
+  /* style pour le footer*/
+  
+  
+  footer  .copyright, footer .smd{
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    height:20vh;
+    background-color: rgb(6, 10, 0);
+  }
+  footer .smd{
+    justify-content:flex-start;
+  }
+  footer  span{
+   color:white;
+   font-size: 15px;
+  }
+  
+  
+  footer  .smd .social svg{
+    color:white;
+    font-size: 25px;
+    background:crimson;
+    padding:5px;
+    border-radius:50%;
+    width:25px;
+    height:25px;
+  }
+  
